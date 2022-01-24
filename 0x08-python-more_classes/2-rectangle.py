@@ -1,14 +1,14 @@
 #!/usr/bin/python3
 
 
-"""class define a rectangle"""
+"""Class define a rectangle"""
 
 
 class Rectangle:
-    """represent a rectangle"""
+    """class define a rectangle"""
 
     def __init__(self, width=0, height=0):
-        """Initialize a new Rectangle"""
+        """Method that initializes a instance"""
 
         self.width = width
         self.height = height
@@ -36,3 +36,12 @@ class Rectangle:
         if value < 0:
             raise ValueError("height must be >= 0")
         self.__height = value
+
+    def area(self):
+        return self.width * self.height
+
+    def perimeter(self):
+        if self.width == 0 or self.height == 0:
+            return 0
+
+        return (2 * self.width) + (2 * self.height)
