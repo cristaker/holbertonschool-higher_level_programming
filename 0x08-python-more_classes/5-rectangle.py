@@ -4,7 +4,6 @@
 """Class define a rectangle"""
 
 
-
 class Rectangle:
     """Class define a rectangle"""
 
