@@ -4,4 +4,9 @@ the '2-matrix_divided' module
 using ''matrix_divided''
 ------------------------
 
+Importing function from the module:
+	>>> matrix_divided = __import__('2-matrix_divided').matrix_divided
 
+dividing matrix by 3
+	>>> matrix_divided([[1, 2, 3], [4, 5, 6]] / 3)
+	[[0.33, 0.67, 1], [1.33, 1.67, 2]]
