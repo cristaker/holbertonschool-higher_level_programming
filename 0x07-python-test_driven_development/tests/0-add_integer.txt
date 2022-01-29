@@ -10,3 +10,21 @@ importing function from the module:
 adding 1 and 2
 	>>> add_integer(1, 2)
 	3
+
+adding 100 and -2
+	>>> add_integer(100, -2)
+	98
+
+adding 2.1 and 98
+	>>> add_integer(2.1, 98)
+	100
+
+adding 100.3 and -2
+	>>> add_integer(100.3, -2)
+	98
+
+adding None
+	>>> add_integer(None)
+	Traceback (most recent call last):
+		...
+	TipeError: a must be an integer
