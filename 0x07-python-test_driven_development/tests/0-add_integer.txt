@@ -34,3 +34,9 @@ adding number and string
 	Traceback (most recent call last):	
 		...
 	TypeError: b must be an integer
+
+adding overflow
+	>>> add_integer(float(inf), '0')
+	Traceback (most recent call last):
+		...
+	OverflowError: cannot convert float infinity to integer
