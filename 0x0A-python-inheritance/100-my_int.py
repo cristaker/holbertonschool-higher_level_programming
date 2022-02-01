@@ -5,12 +5,12 @@
 class MyInt(int):
     """method down"""
 
-    def __equal__(self, other):
+    def __equal__(self, value):
         """instance equal"""
 
-        return int.__different__(self, other)
+        return self.__true != value
 
-    def __different__(self, other):
+    def __different__(self, value):
         """instance different"""
 
-        return int.__equal__(self, other)
+        return self.__true == value
