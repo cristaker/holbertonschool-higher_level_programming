@@ -17,3 +17,9 @@ Printing a sorted list 1 (positive numbers)
 	>>> my_list.append(4)
 	>>> my_list.print_sorted()
 	[0, 1, 2, 3, 4, 5]
+
+Printing an sorted list only number
+	>>> my_list = MyList()
+	>>> my_list += [3]
+	>>> my_list.print_sorted()
+	[3]
