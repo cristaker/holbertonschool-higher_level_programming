@@ -2,7 +2,7 @@
 """class base"""
 
 
-class base:
+class Base:
     """attribuites"""
 
     __nb_objects = 0
