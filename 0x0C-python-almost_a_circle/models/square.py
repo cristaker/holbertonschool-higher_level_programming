@@ -26,3 +26,8 @@ class Square(Rectangle):
 
         self.width = value
         self.height = value
+
+    def __str__(self):
+        """class update"""
+        return "[Square] ({}) {}/{} - {}".format(
+                self.id, self.x, self.y, self.height)
