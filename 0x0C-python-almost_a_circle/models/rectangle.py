@@ -85,9 +85,4 @@ class Rectangle(Base):
 
     def __str__(self):
         """update class"""
-        str_rectangle = ["[Rectangle] "]
-        str_id = "{} ".format(self.id)
-        str_xy = "{}/{} -".format(self.x, self.y)
-        str_wh = "{}/{}".format(self.width, self.height)
-
-        return (str_rectangle + str_id + str_xy + str_wh)
+        return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id, self.x, self.y, self.width, self.height)
