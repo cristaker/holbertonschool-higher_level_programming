@@ -88,7 +88,7 @@ class Rectangle(Base):
         return "[Rectangle] ({}) {}/{} - {}/{}".format(
                 self.id, self.x, self.y, self.width, self.height)
 
-    def updaterec(self, *args, **kwargs):
+    def update(self, *args, **kwargs):
         """updating class rectangle"""
 
         if args is not None and len(args) is not 0:
